@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>JavaScript</title>
+</head>
+<body>
+   <div id = "idDiv">
+      <h1 id="idH1">JavaScript</h1>
+      <p id="idP">
+         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur, earum? Nisi placeat quia ipsam dolorum ut tempore dolor, 
+         voluptas dicta culpa aut. Vitae quia omnis mollitia asperiores, ex nihil explicabo!
+      </p>
+   
+      <p>sksakdölksadl öksaöl kdaöl kdöls kdölsa</p>
+   </div>
+   <p>lkdflsdk ldskf lsdkf lksdf lkslf sld kflskfdlös</p>
+   <p>dfsdö fdsf sdlkf lsdkflskdfö</p>
+   
+</body>
+<script>
+   const h1 = document.getElementById('idH1');
+
+   let element = null;
+
+   h1.innerText = 'ECMA-Script';
+
+   div = document.getElementById('idDiv');
+
+   div.addEventListener('click', (e)=>{
+      if(element != null){
+         element.style.color = "black"
+      }
+      e.target.style.color = 'red';
+      element = e.target;
+   });
+
+</script>
+</html>
